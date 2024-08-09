@@ -1,0 +1,57 @@
+
+*{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+    --primary-main-purple: #6846C6;
+    --primary-main-light-purple: #805CE5;
+    --primary-main-deep-black: #0C0814;
+    --primary-main-dark-grey: #1C1B25;
+    --primary-main-light-grey-1: #F0F0F0;
+    --primary-main-light-grey-2: #E2E2E2;
+    --secondary-main-blue: #23B3D9;
+    --secondary-main-turqoise: #4BCCB9;
+    --secondary-main-pink: #BC22BF;
+    --secondary-main-punch: #EC6F62;
+
+}
+
+.head{
+    background-color: var(--primary-main-deep-black);
+    color: var(--primary-main-light-grey-1);
+    text-align: center;
+    font-size: 20px;
+    height: 100px;
+    padding-top: 30px;
+}
+
+
+.card-width{
+    width: 18rem;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card{
+    border: none !important;
+}
+
+.card-header{
+    
+    background-color: var(--primary-main-purple) !important;
+    font-size: 15px !important;
+    color: var(--primary-main-light-grey-1) !important;
+}
+
+.card-body{
+    font-size: 25px !important;
+}
+
+
